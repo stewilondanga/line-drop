@@ -45,7 +45,19 @@ var messagelabel = document.createElement('label');
  messagelabel.innerHTML = "Your Message : ";
  createform.appendChild(messagelabel);
 
- 
+ var texareaelement = document.createElement('textarea');
+ texareaelement.setAttribute("name", "dmessage");
+ createform.appendChild(texareaelement);
+
+var messagebreak = document.createElement('br');
+ createform.appendChild(messagebreak);
+
+// Append Submit Button
+var submitelement = document.createElement('input');
+ submitelement.setAttribute("type", "submit");
+ submitelement.setAttribute("name", "dsubmit");
+ submitelement.setAttribute("value", "Submit");
+ createform.appendChild(submitelement);
 
 var navigate = (function() {
 	$('.dd').toggle();
