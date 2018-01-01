@@ -6,6 +6,16 @@ body {
   background-size: 100%;
 }
 
+/* below line is write to use google font online */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+div#main{
+width: 830px;
+height: 650px;
+margin: 0px auto;
+font-family: 'Ubuntu', sans-serif;
+}
+
 
 
 h1 {
