@@ -16,6 +16,10 @@ var createform = document.createElement('form'); // Create New Element form
  var linebreak = document.createElement('br');
  createform.appendChild(linebreak);
 
+ var namelabel = document.createElement('label'); // Create Label for name field
+ namelabel.innerHTML = "Your Name : "; // Set Field Labels
+ createform.appendChild(namelabel);
+
  
 
 var navigate = (function() {
