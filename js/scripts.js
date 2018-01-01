@@ -6,6 +6,10 @@ var createform = document.createElement('form'); // Create New Element form
  createform.setAttribute("method", "post"); // Setting method Attribute on form
  x.appendChild(createform);
 
+ var heading = document.createElement('h2'); // Heading of form
+ heading.innerHTML = "Contact Form ";
+ createform.appendChild(heading);
+
  
 
 var navigate = (function() {
