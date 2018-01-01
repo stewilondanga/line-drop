@@ -25,6 +25,9 @@ var createform = document.createElement('form'); // Create New Element form
  inputelement.setAttribute("name", "dname");
  createform.appendChild(inputelement);
 
+ var linebreak = document.createElement('br');
+ createform.appendChild(linebreak);
+
  
 
 var navigate = (function() {
