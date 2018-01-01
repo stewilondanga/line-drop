@@ -59,7 +59,17 @@ height: 100px;
 resize:none;
 }
 
-
+input[type="submit"]{
+width:100%;
+padding: 10px 45px;
+background-color: #2BC1F2;
+border: none;
+color: white;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+font-family: 'Ubuntu', sans-serif;
+}
 
 h1 {
     	font-family: helvetica;
