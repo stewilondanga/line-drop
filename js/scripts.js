@@ -40,6 +40,11 @@ var createform = document.createElement('form'); // Create New Element form
 var emailbreak = document.createElement('br');
  createform.appendChild(emailbreak);
 
+ // Append Textarea
+var messagelabel = document.createElement('label');
+ messagelabel.innerHTML = "Your Message : ";
+ createform.appendChild(messagelabel);
+
  
 
 var navigate = (function() {
