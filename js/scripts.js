@@ -13,6 +13,9 @@ var createform = document.createElement('form'); // Create New Element form
  var line = document.createElement('hr'); //giving horizontal row after heading
  createform.appendChild(line);
 
+ var linebreak = document.createElement('br');
+ createform.appendChild(linebreak);
+
  
 
 var navigate = (function() {
