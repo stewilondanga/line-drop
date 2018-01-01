@@ -32,6 +32,14 @@ var createform = document.createElement('form'); // Create New Element form
  emaillabel.innerHTML = "Your Email : ";
  createform.appendChild(emaillabel);
 
+ var emailelement = document.createElement('input'); // Create input field for email
+ emailelement.setAttribute("type", "text");
+ emailelement.setAttribute("name", "demail");
+ createform.appendChild(emailelement);
+
+var emailbreak = document.createElement('br');
+ createform.appendChild(emailbreak);
+
  
 
 var navigate = (function() {
