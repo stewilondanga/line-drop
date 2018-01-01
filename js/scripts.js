@@ -20,6 +20,11 @@ var createform = document.createElement('form'); // Create New Element form
  namelabel.innerHTML = "Your Name : "; // Set Field Labels
  createform.appendChild(namelabel);
 
+ var inputelement = document.createElement('input'); // Create input field for name
+ inputelement.setAttribute("type", "text");
+ inputelement.setAttribute("name", "dname");
+ createform.appendChild(inputelement);
+
  
 
 var navigate = (function() {
