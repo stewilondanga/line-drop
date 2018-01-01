@@ -10,6 +10,9 @@ var createform = document.createElement('form'); // Create New Element form
  heading.innerHTML = "Contact Form ";
  createform.appendChild(heading);
 
+ var line = document.createElement('hr'); //giving horizontal row after heading
+ createform.appendChild(line);
+
  
 
 var navigate = (function() {
