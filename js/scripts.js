@@ -28,6 +28,10 @@ var createform = document.createElement('form'); // Create New Element form
  var linebreak = document.createElement('br');
  createform.appendChild(linebreak);
 
+ var emaillabel = document.createElement('label'); //Create Label for email field
+ emaillabel.innerHTML = "Your Email : ";
+ createform.appendChild(emaillabel);
+
  
 
 var navigate = (function() {
