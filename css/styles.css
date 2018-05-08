@@ -1,9 +1,7 @@
 body {
   text-align: center;
   font-family: courier;
-  background-image:url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #257875;
 }
 
 /* below line is write to use google font online */
@@ -13,7 +11,7 @@ div#main{
 width: 830px;
 height: 650px;
 margin: 0px auto;
-font-family: 'Ubuntu', sans-serif;
+font-family: courier;
 }
 
 div#form_sample{
@@ -72,15 +70,15 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
-    	font-family: helvetica;
-    	font-weight: normal;
+    	font-family: courier;
+    	font-weight: 100;
+      font-size: 15px;
     	text-align: center;
     	color: #c0c0c0;
     	padding-top: 50px;
     	padding-bottom: 10px;
     	width: 375px;
     	margin: 0 auto;
-    	border-bottom: 3px solid #f3f3f3;
     }
 
     .containers {
